@@ -1,1 +1,11 @@
 Add the jquery plugin Fancybox (http://fancybox.net/) to your rails 3.1 app.
+
+Requires Rails 3.1.
+
+To install:
+
+1. Add to your Gemfile, in the :assets group:
+  gem "jquery-fancybox-rails", :git => 'git@github.com:kclair/jquery-fancybox-rails.git'
+
+2. Add to your application.js file:
+  //= require jquery.dataTables
